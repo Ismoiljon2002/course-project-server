@@ -10,7 +10,7 @@ const { v4 } = require('uuid');
 require('dotenv').config();
 
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 1879;
 const JWT_SECRET = process.env.JWT_SECRET;
 const mongoURL = process.env.MONGO_URL;
 
